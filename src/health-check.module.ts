@@ -4,7 +4,7 @@ import { TerminusModule } from "@nestjs/terminus";
 
 @Module({})
 export class  HealthCheckModule {
-  static forRoot(keyName: string, endpoint: string): DynamicModule {
+  static forRoot(keyName: string, endpoint: string): any {
     return {
       imports: [TerminusModule],
       module: HealthCheckModule,
