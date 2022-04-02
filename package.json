@@ -1,6 +1,6 @@
 {
   "name": "nest-js-hc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NestJS Module that adds a health-check route with terminus",
   "main": "lib/index.js",
   "scripts": {
