@@ -2,16 +2,25 @@
   "name": "nest-js-hc",
   "version": "0.0.1",
   "description": "NestJS Module that adds a health-check route with terminus",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HeavenH/nest-js-hc.git"
+  },
+  "keywords": [
+    "nestjs, ,health, check"
+  ],
   "author": "Gilmar Silva",
+  "bugs": "https://github.com/HeavenH/nest-js-hc/issues",
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^8.4.3",
-    "@nestjs/terminus": "^8.0.6",
+    "@nestjs/terminus": "^8.0.6"
+  },
+  "devDependencies": {
     "typescript": "^4.6.3"
   }
 }

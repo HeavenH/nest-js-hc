@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "declaration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "incremental": true,
+    "target": "es5",
     "module": "commonjs",
-    "removeComments": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "target": "es6"
+    "declaration": true,
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true
   },
-  "exclude": ["node_modules"]
+  "include": [
+    "src"
+  ]
 }
