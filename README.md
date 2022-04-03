@@ -1,9 +1,7 @@
 <div align="center">
   <h1>Nest js Health Check</h1>
   <a href="https://www.npmjs.com/package/nest-js-hc"><img src="https://img.shields.io/npm/v/prisma.svg?style=flat" /></a>
-  <a href="https://github.com/prisma/prisma/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" /></a>
-  <a href="https://github.com/prisma/prisma/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue" /></a>
-  <a href="gilmar.filho@contaazul.com"><img src="https://img.shields.io/badge/chat-on%20slack-blue.svg" /></a>
+  <a href="https://github.com/nest-js-hc/nestjs-hc/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-blue" /></a>
   <br />
   <hr />
 </div>
