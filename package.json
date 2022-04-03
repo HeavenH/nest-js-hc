@@ -1,6 +1,6 @@
-{
+{´
   "name": "nest-js-hc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NestJS Module that adds a health-check route with terminus",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
     "nestjs, ,health, check"
   ],
   "author": "Gilmar Silva",
-  "bugs": "https://github.com/HeavenH/nest-js-hc/issues",
+  "bugs": "https://github.com/haurenburu/",
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^8.4.3",
