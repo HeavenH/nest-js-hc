@@ -1,17 +1,24 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "lib": ["es2017", "es7", "es6"],
+    "strict": true,
     "incremental": true,
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "lib",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": [
-    "src"
+  "exclude": [
+    "node_modules",
+    "lib"
   ]
 }
