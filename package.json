@@ -1,5 +1,5 @@
 {
-  "name": "nest-js-hc",
+  "name": "@HeavenH/nest-js-hc",
   "version": "0.0.7",
   "description": "NestJS Module that adds a health-check route with terminus",
   "main": "lib/index.js",
